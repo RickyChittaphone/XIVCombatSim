@@ -2,3 +2,15 @@
 
 html, body { height: 100%; background-color: #121212;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.table {
+  width: 100%;
+}
+
+.button-container{
+  padding-bottom: 16px;
+}
+
+.button + .button {
+  margin-left: 8px;
+}
